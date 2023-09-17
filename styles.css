@@ -1,0 +1,67 @@
+body{
+    font-family: "Century Gothic", 'Lato', sans-serif;
+    background-color: #00111C;
+    color: #00406C;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-tabs-container {
+    background-color: #001523;
+    height: 10vh;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    border-radius: 10em;
+}
+
+.nav-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #003356;
+    letter-spacing: 0.1rem;
+	transition: all 0.5s ease;
+	font-size: 2rem;
+	  &:hover {
+			color: #00406C;
+      background: #001A2C;
+			transition: all 0.5s ease;
+    border-radius: 10em;
+
+    }
+}
+
+.navigation-slide,
+.page-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    position: relative;
+	text-align: center;
+	padding: 0 2em;
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        letter-spacing: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+        opacity: 0.6;
+    }
+
+
+}
