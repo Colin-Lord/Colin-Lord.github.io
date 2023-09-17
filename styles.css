@@ -1,12 +1,30 @@
+/*Color Pallette https://coolors.co/palette/00111c-001523-001a2c-002137-00253e-002945-002e4e-003356-003a61-00406c*/
+
 body{
     font-family: "Century Gothic", 'Lato', sans-serif;
     background-color: #00111C;
     color: #00406C;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer/Edge */
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .name {
+    margin-top: 2.5em;
+    margin-bottom: 0em;
+  }
 
 h1 {
     font-size: 10em;
-    filter: drop-shadow(0px 0px 40px #00406C);
+    filter: drop-shadow(0px 0px 100px #00406C);
+}
+
+h2 {
+    margin-top: auto;
+    font-size:3em;
 }
 
 a {
@@ -20,9 +38,11 @@ a {
     position: sticky;
     top: 0;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     z-index: 10;
     border-radius: 10em;
+    filter: drop-shadow(0px 0px 20px #001523);
 }
 
 .nav-tab {
@@ -34,14 +54,22 @@ a {
     letter-spacing: 0.1rem;
 	transition: all 0.5s ease;
 	font-size: 2rem;
-	  &:hover 
+	    &:hover 
         {
 			color: #00406C;
             background: #001A2C;
 			transition: all 0.5s ease;
             border-radius: 10em;
             filter: drop-shadow(0px 0px 10px #00406C);
+            letter-spacing: 0.3em;
 
+        }
+        &:active
+        {
+            color: #00406C;
+            background: #001a2c63;
+			transition: all 0.1s ease;
+            border-radius: 10em;
         }
 }
 
