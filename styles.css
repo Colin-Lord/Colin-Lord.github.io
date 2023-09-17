@@ -5,7 +5,8 @@ body{
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 10em;
+    filter: drop-shadow(0px 0px 40px #00406C);
 }
 
 a {
@@ -33,13 +34,15 @@ a {
     letter-spacing: 0.1rem;
 	transition: all 0.5s ease;
 	font-size: 2rem;
-	  &:hover {
+	  &:hover 
+        {
 			color: #00406C;
-      background: #001A2C;
+            background: #001A2C;
 			transition: all 0.5s ease;
-    border-radius: 10em;
+            border-radius: 10em;
+            filter: drop-shadow(0px 0px 10px #00406C);
 
-    }
+        }
 }
 
 .navigation-slide,
