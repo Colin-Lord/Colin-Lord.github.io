@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Add your smooth scrolling code here
 // Add an event listener to each navigation link
-document.querySelectorAll('.nav-tab').forEach(link => {
+document.querySelectorAll('.smooth-scroll').forEach(link => {
     link.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent the default link behavior
 
@@ -25,11 +24,9 @@ const scrollToHomeLink = document.querySelector('.nav-tab[href="#tab-home"]');
 scrollToHomeLink.addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default link behavior
 
-    // Scroll smoothly to the top of the page (either <html> or <body>)
+    // Scroll smoothly to the top of the page
     document.documentElement.scrollIntoView({
         behavior: 'smooth'
     });
 });
-
-
 });
