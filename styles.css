@@ -15,6 +15,10 @@ body::-webkit-scrollbar {
   .name {
     margin-top: 35vh;
     margin-bottom: 0vh;
+    transition: all 1s;
+    &:hover {
+        filter: drop-shadow(0px 0px 10px #00406C);
+    }
   }
 
 h1 {
@@ -26,6 +30,11 @@ h1 {
     margin-top: 20vh;
     margin-bottom: 4vh;
     font-size:3em;
+    transition: all 0.2s;
+    &:hover {
+        filter: drop-shadow(0px 0px 5px #00406C);
+        scale: 150%;
+    }
 }
 
 a {
