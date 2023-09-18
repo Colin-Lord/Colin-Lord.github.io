@@ -132,6 +132,7 @@ footer {
 
 .card {
     margin: 10px;
+    width: 300px;
     background-color: #001A2C;
     border-radius: 20px;
     filter: drop-shadow(0px 0px 5px #00406C);
@@ -145,7 +146,16 @@ footer {
     }
 }
 
-.card-content {
+.fa-arrow-up-right-from-square {
+    display: flex;
+    padding: 50%;
+    font-size: 5em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -50%;
+}
+
+.card-text {
 
 }
 
