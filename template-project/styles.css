@@ -130,8 +130,8 @@ h2 {
 
 .image {
     border-radius: 10px;
-    width: 400px; /* width of container */
-    height: 300px; /* height of container */
+    width: 700px; /* width of container */
+    height: 600px; /* height of container */
     object-fit: cover;
     margin: 10px;
     z-index: 1;
