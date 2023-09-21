@@ -97,8 +97,9 @@ main {
 }
 
 hr {
-    width: 66vw;
-    height: 3px;
+    width: 70vw;
+    height: 10px;
+    border-radius: 50px;
     border-color: #00406C;
     color: #00406C;
     background-color: #00406C;
@@ -106,5 +107,29 @@ hr {
 
 p {
     font-size: 30px;
-    width: 66vw;
+    width: 65vw;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.image-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.image {
+    border-radius: 10px;
+    width: 400px; /* width of container */
+    height: 400px; /* height of container */
+    object-fit: cover;
+    margin: 10px;
 }
