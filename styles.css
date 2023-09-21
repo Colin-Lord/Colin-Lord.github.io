@@ -166,6 +166,12 @@ footer {
 
 .card-text {
     font-size: 1.4em;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+
+.card-caption {
+    font-size: 0.9em;
 }
 
 .card-image {
