@@ -103,6 +103,8 @@ hr {
     border-color: #00406C;
     color: #00406C;
     background-color: #00406C;
+    filter: drop-shadow(0px 0px 10px #00406C);
+    margin-top: 30px;
 }
 
 p {
@@ -132,4 +134,38 @@ h2 {
     height: 400px; /* height of container */
     object-fit: cover;
     margin: 10px;
+    z-index: 1;
+    transition: 0.3s ease, z-index 0ms 100ms;
+    &:hover {
+        scale: 120%;
+        filter: drop-shadow(0px 0px 10px #001523);
+        z-index: 2;
+        transition: 0.3s ease, z-index 0ms 0ms;
+        }
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.social-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    margin: 10px;
+    font-size: 40px;
+    color:#00406C;
 }
