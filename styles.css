@@ -65,7 +65,7 @@ a {
     color: #003356;
     letter-spacing: 0.1rem;
 	transition: all 0.5s ease;
-	font-size: 2rem;
+	font-size: 2.2vw;
 	    &:hover 
         {
 			color: #00406C;
@@ -187,6 +187,7 @@ h2 {
     font-size: 3em;
 }
 
-
-
+h3 {
+    font-size: 2em;
+}
 
